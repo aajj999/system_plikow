@@ -1,0 +1,2 @@
+/bin/x86_64-linux-gnu-ar qc libpath_utils.a CMakeFiles/path_utils.dir/path_utils.c.o
+/bin/x86_64-linux-gnu-ranlib libpath_utils.a

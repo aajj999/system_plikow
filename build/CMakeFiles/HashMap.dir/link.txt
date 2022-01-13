@@ -1,0 +1,2 @@
+/bin/x86_64-linux-gnu-ar qc libHashMap.a CMakeFiles/HashMap.dir/HashMap.c.o
+/bin/x86_64-linux-gnu-ranlib libHashMap.a

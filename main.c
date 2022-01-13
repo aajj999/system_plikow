@@ -1,4 +1,5 @@
 #include "HashMap.h"
+#include "Tree.h"
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -30,6 +31,86 @@ int main(void)
     print_map(map);
 
     hmap_free(map);
+
+    printf("\n\n================\nZaczyna sie moja czesc\n");
+
+    Tree* tree = tree_new();
+    //printf("Jestem po tree_new\n");
+    if(!tree){
+        printf("error1\n");
+    }
+
+    char* list = tree_list(tree, "/");
+    //printf("Jestem po tree_list\n");
+    if(!list){
+        printf("error2\n");
+    }
+    printf("'''%s'\n", list);
+
+    int res = tree_create(tree, "/a/");
+    //printf("Jestem po tree_create\n");
+    if(res){
+        printf("error3\n");
+    }
+
+    list = tree_list(tree, "/");
+    //printf("Jestem po tree_list\n");
+    if(!list){
+        printf("error4\n");
+    }
+    printf("'a''%s'\n", list);
+
+    res = tree_create(tree, "/b/");
+    //printf("Jestem po tree_create\n");
+    if(res){
+        printf("error8\n");
+    }
+
+    list = tree_list(tree, "/");
+    //printf("Jestem po tree_list\n");
+    if(!list){
+        printf("error9\n");
+    }
+    printf("'a,b''%s'\n", list);
+
+    res = tree_create(tree, "/b/w/");
+    //printf("Jestem po tree_create\n");
+    if(res){
+        printf("error88\n");
+    }
+
+    list = tree_list(tree, "/b/");
+    //printf("Jestem po tree_list\n");
+    if(!list){
+        printf("error99\n");
+    }
+    printf("'w''%s'\n", list);
+
+    res = tree_move(tree, "/b/w/", "/a/w/");
+    //printf("Jestem po tree_create\n");
+    if(res){
+        printf("error888\n");
+    }
+
+    list = tree_list(tree, "/b/");
+    //printf("Jestem po tree_list\n");
+    if(!list){
+        printf("error999\n");
+    }
+    printf("'''%s'\n", list);
+
+    list = tree_list(tree, "/a/");
+    //printf("Jestem po tree_list\n");
+    if(!list){
+        printf("error999\n");
+    }
+    printf("'w''%s'\n", list);
+
+    res = tree_remove(tree, "/a/");
+    //printf("Jestem po tree_remove\n");
+    if(res){
+        printf("error5\n");
+    }
 
     return 0;
 }

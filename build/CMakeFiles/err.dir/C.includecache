@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/students/mismap/a/aj408983/PW2/system_plikow/err.c
+err.h
+/home/students/mismap/a/aj408983/PW2/system_plikow/err.h
+errno.h
+-
+stdarg.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+unistd.h
+-
+
+/home/students/mismap/a/aj408983/PW2/system_plikow/err.h
+

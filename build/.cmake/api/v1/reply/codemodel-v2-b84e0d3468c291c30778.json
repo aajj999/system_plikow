@@ -1,0 +1,95 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MIMUW-FORK",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "HashMap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HashMap-Debug-3a9da3258af0085ea750.json",
+					"name" : "HashMap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Tree::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Tree-Debug-0dd57acc73f801ccc30b.json",
+					"name" : "Tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "err::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-err-Debug-a1d2055e99df8cf71a1d.json",
+					"name" : "err",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-758e0d3200304586c974.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "path_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-path_utils-Debug-1b5fb71c454cb5a47d0b.json",
+					"name" : "path_utils",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/students/mismap/a/aj408983/PW2/system_plikow/build",
+		"source" : "/home/students/mismap/a/aj408983/PW2/system_plikow"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

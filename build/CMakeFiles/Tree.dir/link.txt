@@ -1,0 +1,2 @@
+/bin/x86_64-linux-gnu-ar qc libTree.a CMakeFiles/Tree.dir/Tree.c.o
+/bin/x86_64-linux-gnu-ranlib libTree.a

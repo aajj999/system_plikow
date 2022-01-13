@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/students/mismap/a/aj408983/PW2/system_plikow/build",
+  "command": "/bin/x86_64-linux-gnu-gcc-10   -g -Wall -Wextra -Wno-sign-compare -g -std=gnu11 -o CMakeFiles/Tree.dir/Tree.c.o -c /home/students/mismap/a/aj408983/PW2/system_plikow/Tree.c",
+  "file": "/home/students/mismap/a/aj408983/PW2/system_plikow/Tree.c"
+},
+{
+  "directory": "/home/students/mismap/a/aj408983/PW2/system_plikow/build",
+  "command": "/bin/x86_64-linux-gnu-gcc-10   -g -Wall -Wextra -Wno-sign-compare -g -std=gnu11 -o CMakeFiles/path_utils.dir/path_utils.c.o -c /home/students/mismap/a/aj408983/PW2/system_plikow/path_utils.c",
+  "file": "/home/students/mismap/a/aj408983/PW2/system_plikow/path_utils.c"
+},
+{
+  "directory": "/home/students/mismap/a/aj408983/PW2/system_plikow/build",
+  "command": "/bin/x86_64-linux-gnu-gcc-10   -g -Wall -Wextra -Wno-sign-compare -g -std=gnu11 -o CMakeFiles/HashMap.dir/HashMap.c.o -c /home/students/mismap/a/aj408983/PW2/system_plikow/HashMap.c",
+  "file": "/home/students/mismap/a/aj408983/PW2/system_plikow/HashMap.c"
+},
+{
+  "directory": "/home/students/mismap/a/aj408983/PW2/system_plikow/build",
+  "command": "/bin/x86_64-linux-gnu-gcc-10   -g -Wall -Wextra -Wno-sign-compare -g -std=gnu11 -o CMakeFiles/main.dir/main.c.o -c /home/students/mismap/a/aj408983/PW2/system_plikow/main.c",
+  "file": "/home/students/mismap/a/aj408983/PW2/system_plikow/main.c"
+},
+{
+  "directory": "/home/students/mismap/a/aj408983/PW2/system_plikow/build",
+  "command": "/bin/x86_64-linux-gnu-gcc-10   -g -Wall -Wextra -Wno-sign-compare -g -std=gnu11 -o CMakeFiles/err.dir/err.c.o -c /home/students/mismap/a/aj408983/PW2/system_plikow/err.c",
+  "file": "/home/students/mismap/a/aj408983/PW2/system_plikow/err.c"
+}
+]

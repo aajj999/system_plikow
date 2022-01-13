@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/students/mismap/a/aj408983/PW2/system_plikow/HashMap.h
+stdbool.h
+-
+sys/types.h
+-
+
+/home/students/mismap/a/aj408983/PW2/system_plikow/Tree.h
+
+/home/students/mismap/a/aj408983/PW2/system_plikow/main.c
+HashMap.h
+/home/students/mismap/a/aj408983/PW2/system_plikow/HashMap.h
+Tree.h
+/home/students/mismap/a/aj408983/PW2/system_plikow/Tree.h
+stdbool.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/types.h
+-
+unistd.h
+-
+
